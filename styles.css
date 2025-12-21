@@ -1,0 +1,58 @@
+
+
+.char{
+    display: grid;
+    image-rendering: pixelated;
+    width: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    image-rendering: pixelated;
+    background-color: rgb(91, 93, 94);
+    background-image: url("snow.png");
+    background-repeat: repeat;
+    background-size: 25vh;
+    animation: snow-fall 600s linear infinite;
+    margin: 0;
+    padding: 0;
+}
+.ground{
+    background-image: url("ground.png");
+    image-rendering: pixelated;
+    background-size: 10vh;
+    margin: 0;
+    padding: 0;
+    background-repeat: repeat-x;
+    height: 60vh;
+    background-color: rgb(59, 32, 28);
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    font-family: "Tiny5";
+}
+.air{
+    height: 20vh;
+}
+.music{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+    height: 5vh;
+    background-color: aliceblue;
+}
+audio{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+    height: 5vh;
+}
+@keyframes snow-fall{
+    from{
+        background-position: 0vh 0vh;
+    }to{
+        background-position: 0vh 1000vh;
+    }
+}

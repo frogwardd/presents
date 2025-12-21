@@ -18,8 +18,8 @@ body{
     padding: 0;
 }
 .ground{
-    background-image: url("ground.png");
     image-rendering: pixelated;
+    background-image: url("ground.png");
     background-size: 10vh;
     margin: 0;
     padding: 0;
@@ -40,7 +40,6 @@ body{
     margin-right: auto;
     width: 50vh;
     height: 5vh;
-    background-color: aliceblue;
 }
 audio{
     display: grid;
@@ -55,4 +54,5 @@ audio{
     }to{
         background-position: 0vh 1000vh;
     }
+
 }
